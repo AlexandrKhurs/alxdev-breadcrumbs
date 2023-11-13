@@ -11,7 +11,7 @@ RU: простейшие "хлебные крошки" для вашего са�
 
 *_the funny thing: the best and the most flexible breadcrumbs I've found - are the parts of seo plugins (top 2 in WP market, you know 'em), but if you don’t really want the whole all-inclusive bunch of features (and all those annoying "buy pro " offers attached) - I'd say that you are on the right way right now :)_
 ### Downsides
-- the plugin is half-baked (made by myself, for bymself, and without thinking about anyone else... sorry dudes :). 
+- the plugin is half-baked (made by myself, for bymself, and without thinking about anyone else... sorry dudes.. 
 - all settings should be made via code so far (see wp-content/plugins/alxdev-breadcrumbs/config.php). 
 ### Things you should know 
 - "Home" is always displayed in the breadcrumbs(you cand turn 'em off). 
@@ -35,7 +35,7 @@ For example, if you want the breadcrumbs on your "All News" page to look like "H
 
 *_забавный факт: самые лучшие и гибко настраивыемые бредкрамбсы - у сеошных плагинов (топ 2 в маркете ВП), но если вам не нужен весь этот олл-инклюзив (и постоянные навязчивые предложения купить "про" в придачу) - то сейчас вы на верном пути :)_
 ### Недостатки
-- плагин сырой (делал для себя, под себя, и ни о ком другом не думал... уж простите :)
+- плагин сырой (делал для себя, под себя, и ни о ком другом не думал... сорян)
 - все настройки (пока) хранятся только в коде (см. wp-content/plugins/alxdev-breadcrumbs/config.php)
 ### Особенности, которые стоит знать
 - "главная" всегда отображается в бредкрамбсах (на данный момент не отключабельно)
