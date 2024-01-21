@@ -108,7 +108,7 @@ class AlxDevBreadcrumbsPlugin
 
 
         // страница или пост
-        if ((is_single() || is_page()) && ($this->post_types_settings[$post->post_type]['display-post-name'] ?? true)) {
+        if ((is_single() || is_page()) && ($this->post_types_settings[$post->post_type]['display-last-name'] ?? true)) {
             $breadcrumbs[] = [
                 'display_name' => the_title(display: false),
             ];
@@ -117,7 +117,9 @@ class AlxDevBreadcrumbsPlugin
 
         // причесываем и возвращаем
         $breadcrumbs = array_filter($breadcrumbs, fn ($b) => !empty($b['display_name']));
-        unset($breadcrumbs[array_key_last($breadcrumbs)]['url']);
+        if (($this->post_types_settings[$post->post_type]['display-last-name'] ?? true)) {
+            unset($breadcrumbs[array_key_last($breadcrumbs)]['url']);
+        }
 
 
         $this->breadcrumbs = $breadcrumbs;;
