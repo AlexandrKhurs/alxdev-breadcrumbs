@@ -108,7 +108,7 @@ class AlxDevBreadcrumbsPlugin
 
 
         // страница или пост
-        if (is_single() || is_page()) {
+        if ((is_single() || is_page()) && ($this->post_types_settings[$post->post_type]['display-post-name'] ?? true)) {
             $breadcrumbs[] = [
                 'display_name' => the_title(display: false),
             ];
