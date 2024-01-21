@@ -9,12 +9,12 @@ $this->post_types_settings = [
     'post' => [
         'top_page_slug' => 'news',
         'use_taxonomy' => 'category',
-        // 'display-post-name' => false,
+        // 'display-last-name' => false,
     ],
     'products' => [
         'top_page_slug' => 'products',
         'use_taxonomy' => 'products-category',
-        // 'display-post-name' => true, // tru by default
+        // 'display-last-name' => true, // tru by default
     ],
 ];
 $this->separator = ' / ';
